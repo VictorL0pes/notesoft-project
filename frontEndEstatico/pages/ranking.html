@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Ranking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/ranking.css">
+</head>
+<body class="bg-gray-100 h-screen flex flex-col">
+<header class="bg-blue-600 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-lg font-bold">Notesoft Game Ranking</h1>
+        <nav>
+            <ul class="flex gap-4">
+                <li><a href="#" class="hover:underline">Home</a></li>
+                <li><a href="#" class="hover:underline">Profile</a></li>
+                <li><a href="#" class="hover:underline">Settings</a></li>
+                <li><a href="#" class="hover:underline">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="flex-grow container mx-auto py-6">
+    <div class="flex items-center mb-6">
+        <h2 class="text-2xl font-semibold mr-auto">Top Ranked Games</h2>
+        <select class="border border-gray-300 rounded-md p-2">
+            <option value="recents">Recents</option>
+            <option value="score">Score</option>
+        </select>
+    </div>
+
+    <div class="space-y-4">
+        <!-- Game 1 -->
+        <div class="bg-white rounded-lg shadow-md flex items-center p-4">
+            <img src="../covers/elden.webp" alt="Elden Ring Cover" class="w-28 h-28 rounded-md object-cover">
+            <div class="ml-4 flex-grow">
+                <h3 class="text-lg font-semibold">Elden Ring</h3>
+                <a href="#" class="text-blue-600 hover:underline">See Your Review</a>
+            </div>
+            <div class="w-28 h-28 bg-green-500 text-white font-bold flex items-center justify-center rounded-md text-5xl">
+                96
+            </div>
+        </div>
+
+        <!-- Game 2 -->
+        <div class="bg-white rounded-lg shadow-md flex items-center p-4">
+            <img src="../covers/p5r.jpg" alt="Persona 5 Royal Cover" class="w-28 h-28 rounded-md object-cover">
+            <div class="ml-4 flex-grow">
+                <h3 class="text-lg font-semibold">Persona 5 Royal</h3>
+                <a href="#" class="text-blue-600 hover:underline">See Your Review</a>
+            </div>
+            <div class="w-28 h-28 bg-green-500 text-white font-bold flex items-center justify-center rounded-md text-5xl">
+                95
+            </div>
+        </div>
+
+        <!-- Game 3 -->
+        <div class="bg-white rounded-lg shadow-md flex items-center p-4">
+            <img src="../covers/p3r.webp" alt="Persona 3 Reload Cover" class="w-28 h-28 rounded-md object-cover">
+            <div class="ml-4 flex-grow">
+                <h3 class="text-lg font-semibold">Persona 3 Reload</h3>
+                <a href="#" class="text-blue-600 hover:underline">See Your Review</a>
+            </div>
+            <div class="w-28 h-28 bg-green-500 text-white font-bold flex items-center justify-center rounded-md text-5xl">
+                92
+            </div>
+        </div>
+
+        <!-- Game 4 -->
+        <div class="bg-white rounded-lg shadow-md flex items-center p-4">
+            <img src="../covers/marvelrivals.png" alt="Marvel Rivals Cover" class="w-28 h-28 rounded-md object-cover">
+            <div class="ml-4 flex-grow">
+                <h3 class="text-lg font-semibold">Marvel Rivals</h3>
+                <a href="#" class="text-blue-600 hover:underline">See Your Review</a>
+            </div>
+            <div class="w-28 h-28 bg-green-500 text-white font-bold flex items-center justify-center rounded-md text-5xl">
+                88
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-gray-800 text-white p-4 text-center">
+    <p>&copy; 2025 Notesoft.</p>
+</footer>
+</body>
+</html>

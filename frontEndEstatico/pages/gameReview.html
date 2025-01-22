@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Review - Persona 3 Reload</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/gameReview.css">
+</head>
+<body class="bg-gray-100 flex flex-col min-h-screen">
+<header class="bg-blue-600 text-white p-4 shadow-md">
+  <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-lg font-bold">Notesoft Game Review</h1>
+    <nav>
+      <ul class="flex gap-4">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">Profile</a></li>
+        <li><a href="#" class="hover:underline">Settings</a></li>
+        <li><a href="#" class="hover:underline">Logout</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="flex-grow container mx-auto py-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+  <!-- Game Cover -->
+  <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center md:col-span-1">
+    <img src="../covers/p3r.webp" alt="Persona 3 Reload Cover" class="w-full rounded-lg object-cover">
+    <p class="mt-4 text-gray-700 font-semibold">Game Cover</p>
+  </div>
+
+  <!-- Cards on the right -->
+  <div class="md:col-span-2 grid grid-rows-2 gap-6">
+    <!-- Upper row: Review and Score -->
+    <div class="grid grid-cols-3 gap-6">
+      <div class="bg-white rounded-lg shadow-md p-4 col-span-2">
+        <h3 class="text-lg font-semibold text-gray-800">Review</h3>
+        <p class="text-gray-600 mt-2">
+          Persona 3 Reload brings the beloved RPG back to life with stunning visuals and updated gameplay
+          mechanics. A must-play for new and returning fans alike.
+        </p>
+      </div>
+      <div class="bg-green-500 text-white font-bold flex items-center justify-center rounded-lg">
+        <span class="text-[7rem] leading-none">92</span>
+      </div>
+    </div>
+
+    <!-- Lower row: Description -->
+    <div class="bg-white rounded-lg shadow-md p-4">
+      <h3 class="text-lg font-semibold text-gray-800">Description</h3>
+      <p class="text-gray-600 mt-2">
+        Persona 3 Reload is a remastered version of the classic RPG. Dive into a world of adventure and strategy
+        as you uncover the mysteries of the Dark Hour.
+      </p>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-gray-800 text-white text-center py-4 mt-6">
+  <p>&copy; 2025 Notesoft.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notesoft Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body class="flex items-center justify-center h-screen">
+<div class="login-container">
+    <h1 class="login-header">Login to Notesoft</h1>
+
+    <form action="#" method="POST">
+        <input
+                type="email"
+                name="email"
+                class="login-input"
+                placeholder="Enter your email"
+                required
+        >
+
+        <input
+                type="password"
+                name="password"
+                class="login-input"
+                placeholder="Enter your password"
+                required
+        >
+
+        <button type="submit" class="login-button">Login</button>
+    </form>
+
+    <p class="login-footer">
+        Don’t have an account? <a href="register.html">Sign up</a>
+    </p>
+</div>
+</body>
+</html>
