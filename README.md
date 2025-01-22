@@ -20,3 +20,9 @@ Uma aplicação web responsiva desenvolvida para gerenciar, ranquear e revisar j
 - **CSS3**: Estilização personalizada para elementos únicos.
 - **TailwindCSS**: Framework utilitário para design responsivo e eficiente.
 - **JavaScript**: Planejado para funcionalidades interativas futuras.
+
+---
+
+## ✈️ Como Acessar
+
+- <a href="https://victorl0pes.github.io/notesoft-project/frontEndEstatico/pages/user.html" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Clique Aqui.</a>
